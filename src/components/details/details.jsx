@@ -34,7 +34,7 @@ const Details = props => {
 };
 
 Details.propTypes = {
-    data: PropTypes.array
+    data: PropTypes.object
 };
 
 export default Details;
