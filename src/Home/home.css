@@ -1,0 +1,12 @@
+.content {
+    float: left
+}
+
+.alignMessage{
+    margin: 16px;
+    font-size: 18px;
+}
+
+.alignDetails {
+    margin-left: 24px;
+}

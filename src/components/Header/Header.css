@@ -1,0 +1,15 @@
+.header {
+    width: 16%;
+    background-color: purple;
+    float: left;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    margin: 1%;
+    padding : 1%;
+    opacity: 0.3;
+}
+
+.selectedHeader {
+    opacity: 1;
+}

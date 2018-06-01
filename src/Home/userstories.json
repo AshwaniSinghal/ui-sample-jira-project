@@ -1,0 +1,66 @@
+[
+  {
+    "storyId": "PROJECT-1001",
+    "storyDesc": "This story is under Requirement Gathering Phase",
+    "currentPhase": "requirementGathering",
+    "sprint": "Sprint 3",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1002",
+    "storyDesc": "This story is under Requirement Gathering Phase",
+    "currentPhase": "requirementGathering",
+    "sprint": "Sprint 3",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1003",
+    "storyDesc": "This story is under Analysis Phase",
+    "currentPhase": "analysis",
+    "sprint": "Sprint 2",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1004",
+    "storyDesc": "This story is under Analysis Phase",
+    "currentPhase": "analysis",
+    "sprint": "Sprint 2",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1005",
+    "storyDesc": "This story is under Coding Phase",
+    "currentPhase": "coding",
+    "sprint": "Sprint 1",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1006",
+    "storyDesc": "This story is under Coding Phase",
+    "currentPhase": "coding",
+    "sprint": "Sprint 1",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1007",
+    "storyDesc": "This story is under Testing Phase",
+    "currentPhase": "testing",
+    "sprint": "Sprint 1",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  },
+  {
+    "storyId": "PROJECT-1008",
+    "storyDesc": "This story is under Deployment Phase",
+    "currentPhase": "deployment",
+    "sprint": "Sprint 1",
+    "label": "sample-label",
+    "dueDate": "05/31/2018"
+  }
+]

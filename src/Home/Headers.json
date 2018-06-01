@@ -1,0 +1,22 @@
+[
+   {
+     "id": "requirementGathering",
+     "value": "Requirement Gathering"
+   },
+   {
+     "id": "analysis",
+     "value": "Analysis"
+   },
+   {
+     "id": "coding",
+     "value": "Coding"
+   },
+   {
+     "id": "testing",
+     "value": "Testing"
+   },
+   {
+     "id": "deployment",
+     "value": "Deployment"
+   }
+]
