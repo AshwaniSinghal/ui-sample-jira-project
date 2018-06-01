@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 
-import "./home.css";
-import HeaderList from "./Headers.json";
-import UserStoryList from "./userstories.json";
 import Header from "../components/Header/Header";
 import Summary from "../components/summary/summary";
 import Details from "../components/details/details";
+
+import "./home.css";
+import HeaderList from "./Headers.json";
+import UserStoryList from "./userstories.json";
 
 class Home extends Component {
     constructor(props) {
@@ -23,10 +24,7 @@ class Home extends Component {
 
     onHeaderClick(selectedvalue) {
         const selectedPhases = this.state.selectedPhases;
-
-        const index = selectedPhases.findIndex(phase =>
-            phase === selectedvalue.id
-        );
+        const index = selectedPhases.findIndex(phase => phase === selectedvalue.id);
 
         if (index === -1) {
             selectedPhases.push(selectedvalue.id);
@@ -35,17 +33,12 @@ class Home extends Component {
         }
 
         const selectedData = UserStoryList.filter(obj => {
-            const index = selectedPhases.findIndex(phase =>
-                phase === obj.currentPhase
-            );
+            const index = selectedPhases.findIndex(phase => phase === obj.currentPhase);
 
             return index > -1;
         });
 
-        this.setState({
-            selectedPhases,
-            selectedData,
-            selectedStory: null});
+        this.setState({selectedPhases, selectedData, selectedStory: null});
     }
 
     handleStoryClick(story) {

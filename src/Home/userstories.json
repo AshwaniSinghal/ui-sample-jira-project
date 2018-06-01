@@ -1,66 +1,90 @@
 [
   {
     "storyId": "PROJECT-1001",
-    "storyDesc": "This story is under Requirement Gathering Phase",
+    "summary": "Get Sales Information",
+    "description": "As an application user, I should be able to see daily sales for last one month.",
     "currentPhase": "requirementGathering",
-    "sprint": "Sprint 3",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "sprint": "Sprint 6",
+    "label": "requirement",
+    "dueDate": "06/15/2018",
+    "status" : "open",
+    "storyType" : "User Story"
   },
   {
     "storyId": "PROJECT-1002",
-    "storyDesc": "This story is under Requirement Gathering Phase",
+    "summary": "Implement Notification Feature",
+    "description": "As an application user, I should be able to see all notifications inside notification bar.",
     "currentPhase": "requirementGathering",
-    "sprint": "Sprint 3",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "sprint": "Sprint 5",
+    "label": "requirement",
+    "dueDate": "06/13/2018",
+    "status" : "open",
+    "storyType" : "User Story"
   },
   {
     "storyId": "PROJECT-1003",
-    "storyDesc": "This story is under Analysis Phase",
+    "summary": "Design to setup React Project",
+    "description": "This is a technical story to setup the React Project",
     "currentPhase": "analysis",
-    "sprint": "Sprint 2",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "sprint": "Sprint 4",
+    "label": "analysis",
+    "dueDate": "06/10/2018",
+    "status" : "open",
+    "storyType" : "Technical Story"
   },
   {
     "storyId": "PROJECT-1004",
-    "storyDesc": "This story is under Analysis Phase",
+    "summary": "Design to Setup Redux Saga",
+    "description": "This is a technical story to setup the Redux Saga in application",
     "currentPhase": "analysis",
-    "sprint": "Sprint 2",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "sprint": "Sprint 3",
+    "label": "analysis",
+    "dueDate": "06/08/2018",
+    "status" : "open",
+    "storyType" : "Technical Story"
   },
   {
     "storyId": "PROJECT-1005",
-    "storyDesc": "This story is under Coding Phase",
+    "summary": "Implement Subscription functionality",
+    "description": "As an application user, I should be able to subscribe for notifications and alerts.",
     "currentPhase": "coding",
-    "sprint": "Sprint 1",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "sprint": "Sprint 2",
+    "label": "coding",
+    "dueDate": "06/05/2018",
+    "status" : "In Progress Dev",
+    "storyType" : "User Story"
   },
   {
     "storyId": "PROJECT-1006",
-    "storyDesc": "This story is under Coding Phase",
+    "summary": "Create Merchandise Hierarchy",
+    "description": "As an application user, I should be able to select Merchandise Hierarchy on top level navigation to drive my views.",
     "currentPhase": "coding",
     "sprint": "Sprint 1",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "label": "coding",
+    "dueDate": "06/03/2018",
+    "status" : "Dev Completed",
+    "storyType" : "User Story"
   },
   {
     "storyId": "PROJECT-1007",
-    "storyDesc": "This story is under Testing Phase",
+    "summary": "Create Filter Bar",
+    "description": "As an application user, I should be able select local filters (timeframes, status) on first view",
     "currentPhase": "testing",
     "sprint": "Sprint 1",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "label": "testing",
+    "dueDate": "06/02/2018",
+    "status" : "In Progress QA",
+    "storyType" : "User Story"
   },
   {
     "storyId": "PROJECT-1008",
-    "storyDesc": "This story is under Deployment Phase",
+    "summary": "Get Lost Sales Information",
+    "description": "As an application user, I should be able to see Lost sales for selected Items.",
     "currentPhase": "deployment",
     "sprint": "Sprint 1",
-    "label": "sample-label",
-    "dueDate": "05/31/2018"
+    "label": "deployment",
+    "dueDate": "06/01/2018",
+    "status" : "Ready For Review",
+    "storyType" : "User Story"
   }
 ]

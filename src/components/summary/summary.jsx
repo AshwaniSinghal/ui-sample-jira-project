@@ -1,6 +1,7 @@
 import React, {Component} from "react";
-import "./summary.css";
 import PropTypes from "prop-types";
+
+import "./summary.css";
 
 class Summary extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class Summary extends Component {
                 {this.props.data.map((obj, index) =>
                     <li key={index}>
                         <span className="storyId" onClick={() => this.handleClick(obj)}>{obj.storyId}</span>
-                        <span>{` : ${obj.storyDesc}`}</span>
+                        <span>{` : ${obj.summary}`}</span>
                     </li>
                 )}
             </ol>

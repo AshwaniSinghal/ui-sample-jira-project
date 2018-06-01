@@ -8,7 +8,7 @@ const Details = props => {
         <div>
             <div>
                 <span className="title">Description : </span>
-                {props.data.storyDesc}</div>
+                {props.data.description}</div>
             <div>
                 <span className="title">Due Date : </span>
                 {props.data.dueDate}
@@ -20,6 +20,14 @@ const Details = props => {
             <div>
                 <span className="title">Label : </span>
                 {props.data.label}
+            </div>
+            <div>
+                <span className="title">Status : </span>
+                {props.data.status}
+            </div>
+            <div>
+                <span className="title">Story Type: </span>
+                {props.data.storyType}
             </div>
         </div>
     );
