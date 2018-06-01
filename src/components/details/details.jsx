@@ -7,6 +7,9 @@ const Details = props => {
     return (
         <div>
             <div>
+                <span className="title">Story # : </span>
+                {props.data.storyId}</div>
+            <div>
                 <span className="title">Description : </span>
                 {props.data.description}</div>
             <div>
